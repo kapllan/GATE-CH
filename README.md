@@ -1,1 +1,1 @@
-# SGAGE - Swiss German Award Criteria Extraction
+# GATE-CH: German Award Criteria Extraction from Swiss Tenders
