@@ -1,0 +1,12 @@
+model_name_or_path: PM-AI/bi-encoder_msmarco_bert-base_german #T-Systems-onsite/cross-en-de-roberta-sentence-transformers # sentence-transformers/all-mpnet-base-v2
+random_state: 42 #For train eval test split.
+eval_output_path: test_reports_setfit_hyperparameter_search_
+default_hyperparamters:
+  learning_rate: 0.00005
+  batch_size: 32
+  num_iterations: 1
+  num_epochs: 3
+  output_path_to_temporary_models: ./temporary_models/set_fit/without_hyperparameter_search
+hyperparameter_search:
+  n_trials: 1
+  output_path_to_temporary_models: ./temporary_models/set_fit/with_hyperparameter_search
