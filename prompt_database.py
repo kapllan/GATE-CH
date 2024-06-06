@@ -120,44 +120,6 @@ PROMPT_4 = B_INST + ''' Hier einige grundlegende Informationen zu Ausschreibunge
 
                         Hier ist der Auszug:\n\n'''
 
-PROMPT_5 = B_INST + ''' Hier einige grundlegende Informationen zu Ausschreibungen.
-                        Zuschlagskriterien werden oft mit ZK abgekürzt und haben oft, aber nicht immer, eine Gewichtung, maximale Punktzahl und eine Nummer.
-                        Die Gewichtung wird immer in Prozent (%) angegeben.
-                        Die maximale Punktzahl ist eine Nummer.
-                        Die Nummer des Zuschlagskriteriums fängt oft, aber nicht immer, mit der Abkürtung ZK an.       
-                        Ich gebe dir einen Auszug aus einer Ausschreibung. 
-                        
-                        Erste Aufgabe: Schau erst, ob im Auszug überhaupt Zuschlagskriterien genannt werden. 
-                        Wenn keine Zuschlagskriterien genannt werden, gibt einfach eine leere Liste aus, d.h. eine Json, die so aussieht: [{}]. 
-                        Wenn aber Zuschlagskriterien genannt werden, und nur dann, machst du weiter mit Aufgabe 2. 
-                        
-                        Aufgabe 2: Wenn es in dem Auszug um Zuschlagskriterien geht, extrahiere folgende Informationen, sofern diese explizit im Auszug genannt werden: Zuschlagskriterien (kriterium), Nummern der Zuschlagskriterien (zkNummer), Gewichtung der Zuschlagskriterien (gewichtung), sowie maximale Punkte der Zuschlagskriterien (maxPunkte). 
-                        Strukturiere deine Antwort  in Form einer Json, die wie folgt aufgebaut sein soll: 
-                        [
-                            {
-                            "zkNummer": "",
-                            "kriterium": "",
-                            "gewichtung": "",
-                            "maxPunkte": ""
-                            },
-                            {
-                            "zkNummer": "",
-                            "kriterium": "",
-                            "gewichtung": "",
-                            "maxPunkte": ""
-                            }
-                        ]
-
-                        Die Json oben ist nur ein Beispiel. 
-                        Nicht alle Felder in der Json müssen im Text repräsentiert sein. 
-                        Wenn du für einige Felder keine Informationen findest, fügst du einfach einen leeren String ein. 
-                        Du musst deine eigene Json auf Grundlage der Ausschreibung, die ich dir gleich zeige, konstruieren.
-
-                        
-                        WICHTIG: Gebe als Antwort nur eine Json aus und sage sonst nichts weiter! 
-
-                        Hier ist der Auszug:\n\n'''
-
 prompt_check_if_award_criteria_1 = B_INST + """Ich gebe dir einen Auszug aus einer Ausschreibung.
                                         Wenn in dem Auszug Zuschlagskriterien genannt werden, sag nur 'Ja'.
                                         Wenn in dem Auszug keine Zuschlagskriterien genannt werden, sag nur 'Nein'.
@@ -166,13 +128,8 @@ prompt_check_if_award_criteria_1 = B_INST + """Ich gebe dir einen Auszug aus ein
                                         Hier ist der Auszug:\n\n
                                         """
 
-
-
-
 prompt_dict = dict()
 prompt_dict['prompt_1'] = PROMPT_1
 prompt_dict['prompt_2'] = PROMPT_2
 prompt_dict['prompt_3'] = PROMPT_3
 prompt_dict['prompt_4'] = PROMPT_4
-# prompt_dict['prompt_5'] = PROMPT_5
-

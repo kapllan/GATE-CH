@@ -1,12 +1,15 @@
 import argparse
+import os
+from copy import deepcopy
+from statistics import mean
+from typing import List, AnyStr, Dict
+
 import nltk
 import numpy as np
-import os
 import pandas as pd
 import setproctitle
 import spacy
 import torch
-from copy import deepcopy
 from helper import *
 from llm_handler import LLMHandler
 from nltk.translate.bleu_score import sentence_bleu
@@ -14,8 +17,6 @@ from nltk.translate.meteor_score import meteor_score
 from prompt_database import prompt_dict
 from rouge_score import rouge_scorer
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
-from statistics import mean
-from typing import List, AnyStr, Dict
 
 nltk.download('wordnet')
 
@@ -194,9 +195,6 @@ def apply_calculations(dataframe, label=None, as_text=False):
         dataframe['key_value_eval'] = dataframe.apply(
             lambda row: multi_scorer.eval_key_value_match(row['y_true'], row['y_pred']),
             axis=1)
-        '''dataframe['key_value_eval_fuzzy'] = dataframe.apply(
-            lambda row: multi_scorer.eval_key_value_match(row['y_true'], row['y_pred'], fuzzy_match=True),
-            axis=1)'''
 
         dataframe[f"span_scores"] = dataframe.apply(
             lambda row: multi_scorer.evaluate_spans(row['y_true'], row['y_pred']),
