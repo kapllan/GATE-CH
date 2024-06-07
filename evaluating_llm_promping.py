@@ -1,19 +1,15 @@
 import argparse
 import os
 from copy import deepcopy
-from statistics import mean
 from typing import List, AnyStr, Dict
 
 import nltk
-import numpy as np
 import pandas as pd
 import setproctitle
 import spacy
 import torch
-from helper import *
+from helper import convert_criteria_info_to_string, json_extractor, normalize_criteria_representation, get_main_config
 from llm_handler import LLMHandler
-from nltk.translate.bleu_score import sentence_bleu
-from nltk.translate.meteor_score import meteor_score
 from prompt_database import prompt_dict
 from rouge_score import rouge_scorer
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
@@ -26,8 +22,6 @@ rouge_scorer = rouge_scorer.RougeScorer(['rouge1', 'rougeL'], use_stemmer=False)
 
 config = get_main_config()
 
-
-# relevance_predictor = RelevanceClassifier(config['output_path_relevance_criteria'])
 
 class MultiScorer:
 
@@ -155,17 +149,6 @@ class MultiScorer:
 multi_scorer = MultiScorer(spacy_nlp=spacy_nlp)
 
 
-def turn_rouge_score_to_dict(rouge_result):
-    result_dict = dict()
-    for score, values in rouge_result.items():
-        entry = dict()
-        for field in ['precision', 'recall', 'fmeasure']:
-            entry[field] = getattr(values, field)
-        result_dict[score] = entry
-
-    return result_dict
-
-
 def filter_values(extracted_infos, field):
     if isinstance(extracted_infos, str):
         return ""
@@ -208,8 +191,6 @@ def apply_llm(training_set_df: pd.core.frame.DataFrame, prompt_id: str,
     all_scores = list()
 
     for row in training_set_df.to_dict(orient='records'):
-        # if row['filename'] == '35_114328 AnbindLIWA AusschBaumeister 5_03  AGB WVZ.pdf':
-        # if row["criteria_info"]:
         print(row['filename'])
         row['label_predicted'] = llm_handler.has_award_criteria(row['context'])
         result_entry = deepcopy(row)
@@ -291,7 +272,7 @@ if __name__ == '__main__':
     parser.add_argument('-mnp', '--model_name_or_path',
                         default="VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct")
     parser.add_argument('-fp', '--filepath', help='Insert the path of the file you want to analyse.')
-    parser.add_argument('-op', '--output_path', default="./evaluation_results_paper_final_1/")
+    parser.add_argument('-op', '--output_path', default="./llm_prompting_evaluation_results")
     parser.add_argument('-m', '--mode', default=None, choices=['has_criteria', 'has_no_criteria'],
                         help="Define whether you want to evaluate only examples that have criteria (has_criteria) or have no criteria (has_no_criteria).")
     parser.add_argument('-ns', '--number_of_samples', type=int, default=None,

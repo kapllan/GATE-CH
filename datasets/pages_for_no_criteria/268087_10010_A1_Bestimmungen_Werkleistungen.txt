@@ -1,0 +1,75 @@
+ 
+Copyright 2022 KBOB 
+KBOB-Dokument Nr. 08 
+Bestimmungen zum Vergabeverfahren für Werkleistungen 
+Offenes Verfahren 
+Seite 6 von 14 
+Version 2022 (2.0) deutsch 
+ 
+Ausschreibung HPQ BKP 215.2, Fassadenbau 
+ 
+3 
+erfüllt 
+den Anforderungen der 
+Ausschreibung entsprechend 
+im wesentlichen plausibles Angebot 
+2 
+schlecht erfüllt 
+Angaben ohne ausreichenden 
+Bezug zum Projekt 
+unplausible Angaben 
+1 
+sehr schlecht erfüllt 
+ungenügende, unvollständige 
+Angaben 
+unplausibles Angebot 
+0 
+nicht beurteilbar 
+keine Angaben 
+nicht bewertbar 
+ 
+└ 
+Preis 
+Erläuterungen: 
+┌ 
+Bewertung des Preises 
+Die Bewertung des Preises erfolgt nach folgender Bewertungsmethode: 
+Das Angebot mit dem tiefsten gültigen Preis erhält die maximale Punktzahl 5. Angebote, die 50% oder mehr 
+vom tiefsten Preis abweichen, erhalten die Punktzahl 0. Dazwischen werden die Punktzahlen (auf eine 
+Kommastelle gerundet) linear vergeben und mit der Gewichtung multipliziert. 
+└ 
+Zuschlag 
+┌ 
+Jedes Kriterium wird mit einer Note (N) zwischen 0 - 5 in Schritten von ganzen Punkten bewertet. 
+Anschliessend werden pro Kriterium die Wertungen mit den Gewichtungen (G) multipliziert. Das Angebot mit 
+der höchsten Punktzahl (P) erhält den Zuschlag. 
+└ 
+ Aufgrund der in den Unterlagen genannten Kriterien. 
+2.11 
+Zulassung Varianten 
+Nein. 
+Bemerkungen: 
+┌ 
+ 
+└ 
+2.12 
+Zulassung Teilangebote 
+Nein. 
+Bemerkungen: 
+┌ 
+ 
+└ 
+2.13 
+Ausführungstermin 
+       Monate respektive       Tage nach Vertragsunterzeichnung. 
+ Beginn: 28.10.2026 und Ende: 11.01.2030. 
+Bemerkungen: 
+┌ 
+Termine gemäss Ziffer 6.1 des vorgesehenen Werkvertrags KBOB sowie der Submissionsbeilage 
+Terminprogramm. 
+└ 
+3 
+Bedingungen 
+3.1 
+Generelle Teilnahmebedingungen 
+

@@ -1,0 +1,57 @@
+ 
+© BLS Netz AG 
+Allgemeine Bestimmungen 
+Seite 18/20 
+5.1.3 Bewertung Zuschlagskriterien 
+Die Bewertung der Zuschlagskriterien erfolgt gemäss folgender Skala: 
+Note 5 
+= sehr gute Erfüllung, qualitativ ausgezeichnet, sehr grosser Beitrag zur Zielerrei-
+chung 
+Note 4 
+= gute Erfüllung, qualitativ sehr gut 
+Note 3 
+= normale, durchschnittliche Erfüllung, durchschnittliche Qualität, den Anforde-
+rungen der Ausschreibung entsprechend 
+Note 2 
+= schlechte Erfüllung, Angaben ohne ausreichenden Bezug zum Projekt 
+Note 1 
+= sehr schlechte Erfüllung, ungenügende, unvollständige Angaben 
+Note 0 
+= nicht beurteilbar, keine Angaben 
+ 
+Die Note jedes Zuschlagskriteriums wird mit der entsprechenden Gewichtung multipliziert. 
+Bewertung Preise: 
+Die Angebotspreise werden linear bewertet, wobei das günstigste Angebot 100% der Punkte be-
+kommt. Die Preisgrenze für 0 Punkte liegt bei +50% des günstigsten Angebotes. 
+Die Note des bereinigten Preisangebots wird nach folgender Formel berechnet: 
+ 
+ 
+P0 – Pj 
+Nj = M  x __________ 
+ 
+P0 – Pmin 
+ 
+• 
+Nj 
+Note des Angebots j 
+• 
+M 
+Maximale Punktezahl des gewichteten Zuschlagskriterium 
+• 
+Pmin Preis des tiefsten Angebots 
+• 
+P0 
+Preis bei welchem die Preisgerade den Nullpunkt schneidet 
+• 
+Pj 
+Preis des zu bewertenden Angebots 
+5.2 
+Angebotsstruktur 
+Die Struktur für die Einreichung des Angebotes wird mittel Dokument 0.2 „Vorgabe Angebots-
+struktur“ im Griff 0 vorgegeben. 
+Die vorgegebene Struktur ist zwingend einzuhalten. 
+5.3 
+Eignungskriterien / Zwingende Projektvorgaben und Zuschlagskriterien 
+Die projektspezifischen Eignungskriterien, die zwingenden Projektvorgaben und die Zuschlagskri-
+terien sind im Dokument 1.3. „Anforderungskatalog“ im Griff 1 aufgeführt. 
+

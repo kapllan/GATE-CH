@@ -1,0 +1,98 @@
+Berechnung der Preisänderung mit der Gleitpreisformel nach SIA 122
+Stichtag: 
+Stichtag: 
+Leistungsperiode:
+von: 
+bis:
+Indices Code
+Kostenart
+Kosten-
+anteil
+Kosten-
+anteil in 
+%
+Indexstand
+am Stichtag
+Indexstand
+Durchschnitt
+Leistungs-
+periode
+Quotient
+der Indices
+Kostenanteil
+nach
+Preisänderung
+1
+3
+4
+5
+6
+7
+8
+x 0
+x m
+x m : x 0
+4 x 7
+nicht überwälzungsberechtigter Anteil
+a
+20.00%
+20.00%
+  23.11/12
+Flachglas
+b
+13.00%
+  24.1
+Stahl
+c
+9.00%
+  24.42.22
+Strangpressprodukte
+d
+13.00%
+  24.5
+Gusserzeugnisse aus Eisen und Leichtmetall
+e
+18.00%
+f
+g
+h
+i
+k
+Anteil Lohn / Nicht Teuerungsberechtigt t
+27.00%
+         100.00
+         100.00
+1.00
+27.00%
+T
+100.00%
+47.00%
+abzüglich Basisindex
+-100.00%
+Preisänderung in %
+CHF
+MWST
+7.70%
+Rechnungsbetrag der  Preisänderung in CHF,  inkl. MWST
+Datum:
+Unternehmung
+Unterschriften:
+Angebot vom:
+HPQ Labor- und Bürogebäude, ETH Zürich
+ETH Zürich, Immobilien
+BKP 215.2 Fassadenbau
+Rechnungsbetrag der Arbeiten für die 
+Leistungsperiode, exkl. MWST, Rabatte abgezogen
+Garantierückbehalt und Skonto nicht abgezogen
+Objekt:
+Auftraggeber:
+Unternehmung:
+Örtliche Bauleitung
+Bauleitung
+Rechnungsbetrag der 
+Preisänderung in CHF, 
+ohne MWST
+Copyright 2020 KBOB
+KBOB-Dokument Nr. 60
+Version 2020 (1.0) d/f/i
+

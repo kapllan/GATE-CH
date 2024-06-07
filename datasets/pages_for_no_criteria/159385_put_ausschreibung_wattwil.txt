@@ -1,0 +1,65 @@
+Spital Wattwil
+Ausschreibung Patientenuniversalterminal (PUT)
+VERFAHREN
+1.00
+Ausschreibungsverfahren
+1.10
+Offenes Verfahren
+(gemäss  der Verordnung über das öffentliche Beschaffungswesen des Kanton St. Gallen 841.11
+vom 23.3.2010)
+2.00
+Vergabe
+2.10
+Kriterien
+-
+Nutzerkriterien
+40%
+Funktionalität, Ergonomie und Ästhetik
+20%
+Komplexität des Gesammtsystems (inkl. Netzwerk, techn. Unterhalt,…)
+10%
+Anbindung Logiman (Hotelerie)
+5%
+Reinigung / Hygiene
+5%
+-
+Kosten
+40%
+Investitionskosten inkl. induzierte Umbaukosten
+20%
+Betriebskosten
+20%
+-
+Lieferantenbeurteilung
+20%
+Referenzen
+10%
+Serviceleistungen
+7%
+Lieferbedingung
+3%
+Total
+100%
+2.20
+Bewertung
+5
+überdurchschnittlich
+4
+gut
+3
+mittelmässig
+2
+genügend
+1
+ungenügend
+2.30
+Ausschlusskriterien
+Ein Auschluss liegt vor, wenn eine Mussposition nicht erfüllt wird
+3.00
+Ausführungstermin
+Inbetriebnahme Februar 2018
+170810 PUT Ausschreibung Wattwil.xlsx
+14.06.04/VS
+med.solutions@pgmm.ch
+Seite 2 / 14
+
