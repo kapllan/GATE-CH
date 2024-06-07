@@ -18,9 +18,9 @@ To train and evaluate the binary classififier using the [SetFit](https://hugging
 python train_set_fit_model.py
 ```
 
-The results will be stored under a sub directory called `test_reports_setfit_hyperparameter_search_False__criteria_relevance`.
+The results will be stored under a sub directory named `test_reports_setfit_hyperparameter_search_False__criteria_relevance`.
 
-## Task 1: Award Criteria Extraction
+## Task 2: Award Criteria Extraction
 
 To evaluate the LLM prompting using [VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct](https://huggingface.co/VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct), run the following code:
 
@@ -28,8 +28,8 @@ To evaluate the LLM prompting using [VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Ins
 python evaluating_llm_promping.py -mnp VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
 ```
 
-The results will be saved under a new folder called `llm_prompting_evaluation_results`.
+The results will be stored under a sub directory named `llm_prompting_evaluation_results`.
 
 
 ## Tables
-After running the experiments, you can generate the tables with the metrics (Precision, Recall, F1) using the note book `Evaluation_Tables.ipynb`.
+After running the experiments, you can generate the tables with the metrics (Precision, Recall, F1) using the notebook `Evaluation_Tables.ipynb`.
