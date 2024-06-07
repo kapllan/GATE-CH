@@ -2,11 +2,10 @@ Pillow==10.3.0
 PyMuPDF
 PyPDF2==3.0.1
 PyYAML==6.0.1
-bitsandbytes==0.43.1
+bitsandbytes
 datasets==2.19.1
 dateparser==1.2.0
 fasttext==0.9.2
-nltk
 nltk==3.6.4
 numpy==1.21.2
 openpyxl
@@ -15,7 +14,7 @@ peft==0.11.1
 protobuf
 rapidfuzz==3.9.2
 rouge_score==0.1.2
-scikit_learn==1.0
+scikit-learn
 sentence_transformers==3.0.0
 sentencepiece==0.2.0
 setfit==1.0.3
@@ -23,6 +22,6 @@ setproctitle
 spacy==3.7.3
 tabula==1.0.5
 templates==0.0.5
-torch==1.13.0
-transformers==4.41.1
-vllm==0.4.2
+torch==2.3.0
+xformers==0.0.26.post1
+transformers==4.39.0
