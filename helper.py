@@ -38,21 +38,6 @@ def str2bool(v):
         raise argparse.ArgumentTypeError('Boolean value expected.')
 
 
-def get_main_config() -> dict:
-    current_path = os.path.dirname(__file__)
-
-    path_to_config_file = os.path.join(current_path, './config.yml')
-
-    with open(path_to_config_file, 'r') as f:
-        config = yaml.safe_load(f)
-
-    paths = config['paths']
-    for key, path in paths.items():
-        paths[key] = os.path.join(current_path, path)
-
-    return config
-
-
 def json_extractor(sample_string):
     sample_string = re.sub(r'`', '', sample_string)
     sample_string = re.sub(r"null", "''", sample_string)

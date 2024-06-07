@@ -8,7 +8,7 @@ import pandas as pd
 import setproctitle
 import spacy
 import torch
-from helper import convert_criteria_info_to_string, json_extractor, normalize_criteria_representation, get_main_config
+from helper import convert_criteria_info_to_string, json_extractor, normalize_criteria_representation
 from llm_handler import LLMHandler
 from prompt_database import prompt_dict
 from rouge_score import rouge_scorer
@@ -19,8 +19,6 @@ nltk.download('wordnet')
 spacy_nlp = spacy.load('de_core_news_lg')
 
 rouge_scorer = rouge_scorer.RougeScorer(['rouge1', 'rougeL'], use_stemmer=False)
-
-config = get_main_config()
 
 
 class MultiScorer:
